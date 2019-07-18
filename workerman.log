@@ -1,0 +1,128 @@
+2019-07-18 18:54:12 pid:7462 Workerman[master.php] start in DEBUG mode
+2019-07-18 18:54:13 pid:7462 Workerman[master.php] stopping ...
+2019-07-18 18:54:13 pid:7462 Workerman[master.php] has been stopped
+2019-07-18 18:54:30 pid:7472 Workerman[master.php] start in DEBUG mode
+2019-07-18 18:54:35 pid:7472 Workerman[master.php] stopping ...
+2019-07-18 18:54:35 pid:7472 Workerman[master.php] has been stopped
+2019-07-18 18:54:42 pid:7499 Workerman[master.php] start in DEBUG mode
+2019-07-18 18:55:45 pid:7499 Workerman[master.php] stopping ...
+2019-07-18 18:55:45 pid:7499 Workerman[master.php] has been stopped
+2019-07-18 18:55:45 pid:7598 Workerman[master.php] start in DEBUG mode
+2019-07-18 18:56:03 pid:7598 Workerman[master.php] stopping ...
+2019-07-18 18:56:03 pid:7598 Workerman[master.php] has been stopped
+2019-07-18 18:56:03 pid:7633 Workerman[master.php] start in DEBUG mode
+2019-07-18 18:56:13 pid:7633 Workerman[master.php] stopping ...
+2019-07-18 18:56:13 pid:7633 Workerman[master.php] has been stopped
+2019-07-18 18:56:14 pid:7642 Workerman[master.php] start in DEBUG mode
+2019-07-18 18:56:55 pid:7642 Workerman[master.php] stopping ...
+2019-07-18 18:56:55 pid:7642 Workerman[master.php] has been stopped
+2019-07-18 18:56:55 pid:7674 Workerman[master.php] start in DEBUG mode
+2019-07-18 18:56:58 pid:7680 Workerman[slaver.php] start in DAEMON mode
+2019-07-18 18:56:58 pid:7683 Workerman[slaver.php] start in DAEMON mode
+2019-07-18 18:57:00 pid:7686 Workerman[slaver.php] start in DAEMON mode
+2019-07-18 18:57:00 pid:7693 Workerman[slaver.php] start in DAEMON mode
+2019-07-18 18:57:00 pid:7696 Workerman[slaver.php] start in DAEMON mode
+2019-07-18 18:57:25 pid:7674 Workerman[master.php] stopping ...
+2019-07-18 18:57:25 pid:7674 Workerman[master.php] has been stopped
+2019-07-18 19:08:32 pid:8437 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:10:08 pid:8437 Workerman[master.php] stopping ...
+2019-07-18 19:10:08 pid:8437 Workerman[master.php] has been stopped
+2019-07-18 19:10:09 pid:8585 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:20:09 pid:9297 Workerman[slaver.php] start in DAEMON mode
+2019-07-18 19:20:13 pid:9304 Workerman[slaver.php] start in DAEMON mode
+2019-07-18 19:20:13 pid:9304 Workerman[slaver.php] already running
+2019-07-18 19:20:14 pid:9305 Workerman[slaver.php] start in DAEMON mode
+2019-07-18 19:20:14 pid:9305 Workerman[slaver.php] already running
+2019-07-18 19:20:14 pid:9306 Workerman[slaver.php] start in DAEMON mode
+2019-07-18 19:20:14 pid:9306 Workerman[slaver.php] already running
+2019-07-18 19:25:53 pid:8585 Workerman[master.php] stopping ...
+2019-07-18 19:25:53 pid:8585 Workerman[master.php] has been stopped
+2019-07-18 19:26:32 pid:9685 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:26:41 pid:9706 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:29:30 pid:9299 Workerman[slaver.php] stopping ...
+2019-07-18 19:29:30 pid:9299 Workerman[slaver.php] has been stopped
+2019-07-18 19:31:55 pid:10112 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:32:13 pid:10112 Workerman[master.php] stopping ...
+2019-07-18 19:32:13 pid:10112 Workerman[master.php] has been stopped
+2019-07-18 19:32:34 pid:10145 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:32:46 pid:10162 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:33:12 pid:10223 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:33:22 pid:10223 Workerman[master.php] stopping ...
+2019-07-18 19:33:22 pid:10223 Workerman[master.php] has been stopped
+2019-07-18 19:34:23 pid:10343 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:34:31 pid:10351 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:36:53 pid:10559 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:37:03 pid:10559 Workerman[master.php] stopping ...
+2019-07-18 19:37:03 pid:10559 Workerman[master.php] has been stopped
+2019-07-18 19:37:07 pid:10593 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:38:39 pid:10700 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:38:46 pid:10700 Workerman[master.php] stopping ...
+2019-07-18 19:38:46 pid:10700 Workerman[master.php] has been stopped
+2019-07-18 19:38:48 pid:10718 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:38:51 pid:10718 Workerman[master.php] stopping ...
+2019-07-18 19:38:51 pid:10718 Workerman[master.php] has been stopped
+2019-07-18 19:38:52 pid:10727 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:38:55 pid:10727 Workerman[master.php] stopping ...
+2019-07-18 19:38:55 pid:10727 Workerman[master.php] has been stopped
+2019-07-18 19:39:00 pid:10729 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:39:30 pid:10729 Workerman[master.php] stopping ...
+2019-07-18 19:39:30 pid:10729 Workerman[master.php] has been stopped
+2019-07-18 19:44:17 pid:11082 Workerman[master.php] start in DEBUG mode
+2019-07-18 19:55:40 pid:11082 worker[WebServer:11083] exit with status 139
+2019-07-18 19:55:42 pid:11082 worker[WebServer:11841] exit with status 139
+2019-07-18 19:55:43 pid:11082 worker[WebServer:11845] exit with status 139
+2019-07-18 19:55:50 pid:11082 worker[WebServer:11848] exit with status 139
+2019-07-18 19:56:09 pid:11082 Workerman[master.php] stopping ...
+2019-07-18 19:56:09 pid:11082 Workerman[master.php] has been stopped
+2019-07-18 19:56:10 pid:11878 Workerman[master.php] start in DEBUG mode
+2019-07-18 21:20:34 pid:11878 Workerman[master.php] stopping ...
+2019-07-18 21:20:34 pid:11878 Workerman[master.php] has been stopped
+2019-07-18 21:20:35 pid:17472 Workerman[master.php] start in DEBUG mode
+2019-07-18 21:20:51 pid:17472 Workerman[master.php] stopping ...
+2019-07-18 21:20:51 pid:17472 Workerman[master.php] has been stopped
+2019-07-18 21:20:59 pid:17511 Workerman[master.php] start in DEBUG mode
+2019-07-18 21:22:56 pid:17511 Workerman[master.php] stopping ...
+2019-07-18 21:22:56 pid:17511 Workerman[master.php] has been stopped
+2019-07-18 21:38:06 pid:18663 Workerman[master.php] start in DEBUG mode
+2019-07-18 21:38:11 pid:18663 Workerman[master.php] stopping ...
+2019-07-18 21:38:11 pid:18663 Workerman[master.php] has been stopped
+2019-07-18 21:43:10 pid:18988 Workerman[master.php] start in DEBUG mode
+2019-07-18 21:43:13 pid:18988 Workerman[master.php] stopping ...
+2019-07-18 21:43:13 pid:18988 Workerman[master.php] has been stopped
+2019-07-18 21:43:16 pid:18991 Workerman[master.php] start in DEBUG mode
+2019-07-18 21:55:29 pid:18991 Workerman[master.php] stopping ...
+2019-07-18 21:55:29 pid:18991 Workerman[master.php] has been stopped
+2019-07-18 21:55:30 pid:19779 Workerman[master.php] start in DEBUG mode
+2019-07-18 21:56:58 pid:19780 Worker[19780] process terminated with ERROR: E_ERROR "Call to a member function fetchArray() on a non-object in /root/link/forwarder/web/mod/list.php on line 3"
+2019-07-18 21:56:58 pid:19779 worker[WebServer:19780] exit with status 65280
+2019-07-18 21:57:29 pid:19779 Workerman[master.php] stopping ...
+2019-07-18 21:57:29 pid:19779 Workerman[master.php] has been stopped
+2019-07-18 21:57:30 pid:19900 Workerman[master.php] start in DEBUG mode
+2019-07-18 22:29:14 pid:19900 Workerman[master.php] stopping ...
+2019-07-18 22:29:14 pid:19900 Workerman[master.php] has been stopped
+2019-07-18 22:29:54 pid:22176 Workerman[master.php] start in DEBUG mode
+2019-07-18 22:29:59 pid:22176 Workerman[master.php] stopping ...
+2019-07-18 22:30:00 pid:22176 Workerman[master.php] has been stopped
+2019-07-18 22:30:07 pid:22217 Workerman[master.php] start in DEBUG mode
+2019-07-18 22:30:08 pid:22217 Workerman[master.php] stopping ...
+2019-07-18 22:30:08 pid:22217 Workerman[master.php] has been stopped
+2019-07-18 22:30:46 pid:22252 Workerman[master.php] start in DEBUG mode
+2019-07-18 22:30:51 pid:22253 Worker[22253] process terminated with ERROR: E_ERROR "Call to undefined function file_exist() in /root/link/forwarder/web/mod/pause.php on line 18"
+2019-07-18 22:30:51 pid:22252 worker[WebServer:22253] exit with status 65280
+2019-07-18 22:30:51 pid:22267 Worker[22267] process terminated with ERROR: E_ERROR "Call to undefined function file_exist() in /root/link/forwarder/web/mod/pause.php on line 18"
+2019-07-18 22:30:51 pid:22252 worker[WebServer:22267] exit with status 65280
+2019-07-18 22:35:38 pid:22252 Workerman[master.php] stopping ...
+2019-07-18 22:35:38 pid:22252 Workerman[master.php] has been stopped
+2019-07-18 22:35:39 pid:22591 Workerman[master.php] start in DEBUG mode
+2019-07-18 22:36:08 pid:22591 Workerman[master.php] stopping ...
+2019-07-18 22:36:08 pid:22591 Workerman[master.php] has been stopped
+2019-07-18 22:36:15 pid:22638 Workerman[master.php] start in DEBUG mode
+2019-07-18 22:37:12 pid:22638 Workerman[master.php] stopping ...
+2019-07-18 22:37:12 pid:22638 Workerman[master.php] has been stopped
+2019-07-18 22:37:12 pid:22691 Workerman[master.php] start in DEBUG mode
+2019-07-18 23:03:01 pid:22691 Workerman[master.php] stopping ...
+2019-07-18 23:03:01 pid:22691 Workerman[master.php] has been stopped
+2019-07-18 23:03:02 pid:24538 Workerman[master.php] start in DEBUG mode
+2019-07-18 23:03:23 pid:24538 Workerman[master.php] stopping ...
+2019-07-18 23:03:23 pid:24538 Workerman[master.php] has been stopped
+2019-07-18 23:03:23 pid:24568 Workerman[master.php] start in DEBUG mode

@@ -1,0 +1,21 @@
+2019-07-18 19:32:06 pid:10135 Workerman[slaver.php] start in DAEMON mode
+2019-07-18 19:32:43 pid:10137 Workerman[slaver.php] stopping ...
+2019-07-18 19:33:02 pid:10137 Workerman[slaver.php] stopping ...
+2019-07-18 19:33:07 pid:10138 worker[10138] remains 4 connection(s)
+2019-07-18 19:33:07 pid:10138 worker[10138] remains 2 connection(s)
+2019-07-18 19:33:08 pid:10138 worker[10138] remains 0 connection(s)
+2019-07-18 19:33:08 pid:10137 Workerman[slaver.php] has been stopped
+2019-07-18 19:33:20 pid:10237 Workerman[slaver.php] start in DAEMON mode
+2019-07-18 19:36:58 pid:10561 Workerman[slaver.php] start in DAEMON mode
+2019-07-18 19:38:43 pid:10714 Workerman[slaver.php] start in DAEMON mode
+2019-07-18 19:38:46 pid:10716 Workerman[slaver.php] stopping ...
+2019-07-18 19:38:46 pid:10716 Workerman[slaver.php] has been stopped
+2019-07-18 19:38:49 pid:10723 Workerman[slaver.php] start in DAEMON mode
+2019-07-18 19:38:51 pid:10725 Workerman[slaver.php] stopping ...
+2019-07-18 19:38:51 pid:10725 Workerman[slaver.php] has been stopped
+2019-07-18 19:39:07 pid:10751 Workerman[slaver.php] start in DAEMON mode
+2019-07-18 19:39:30 pid:10753 Workerman[slaver.php] stopping ...
+2019-07-18 19:39:30 pid:10753 Workerman[slaver.php] has been stopped
+2019-07-18 21:21:13 pid:17541 Workerman[/root/link/forwarder/slaver.php] start in DAEMON mode
+2019-07-18 21:22:56 pid:17543 Workerman[slaver.php] stopping ...
+2019-07-18 21:22:56 pid:17543 Workerman[slaver.php] has been stopped
