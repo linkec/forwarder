@@ -14,7 +14,7 @@
         padding:10px;
     }
 </style>
-<div class="layui-container">
+<div style="margin:10px;">
     <blockquote class="layui-elem-quote">CAUTION：RESTART WILL DISCONNECT ALL CONNECTIONS</blockquote>
     <fieldset class="layui-elem-field">
         <legend>ACTION</legend>
@@ -53,10 +53,13 @@ layui.use(['table','form'], function(){
     ,cellMinWidth: 80
     ,cols: [[
       {type:'checkbox'}
+      ,{field:'protocol', title: 'Protocol', sort: true}
       ,{field:'local', title: 'Local Address', sort: true}
       ,{field:'localPort', title: 'Local Port', sort: true}
       ,{field:'remote', title: 'Remote Address', sort: true}
       ,{field:'remotePort', title: 'Remote Port', sort: true}
+      ,{field:'traffic_in', title: 'Upload', sort: true}
+      ,{field:'traffic_out', title: 'Download', sort: true}
       ,{field:'action', title: 'Actions',toolbar:'#subaction'}
     ]]
   });

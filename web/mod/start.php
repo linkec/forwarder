@@ -24,7 +24,7 @@ $thread     = $rs['thread'];
 $switch     = $rs['switch'];
 
 //Check is Port inuse?
-$socket = stream_socket_server("$protocol://$local:$localPort", $errno, $errstr);
+$socket = stream_socket_server("$protocol://$local:$localPort", $errno, $errstr,$protocol === 'udp' ? STREAM_SERVER_BIND : STREAM_SERVER_LISTEN);
 if (!$socket) {
     $error = true;
     $out['error'] = $error;
