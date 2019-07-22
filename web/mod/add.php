@@ -40,21 +40,18 @@ if($error){
     return;
 }
 
-//Check is Port inuse?
-$socket = stream_socket_server("$protocol://$local:$localPort", $errno, $errstr,$protocol === 'udp' ? STREAM_SERVER_BIND : STREAM_SERVER_LISTEN);
-if (!$socket) {
-    $error = true;
-    $out['error'] = $error;
-    $out['errmsg'][] = "Can not bind on $protocol://$local:$localPort";
-    echo json_encode($out);
-    return;
-}
-fclose($socket);
-unset($socket);
 //TABLE COLUMNS
 //id,protocol,local,localPort,remote,remotePort,switch,traffic_in,traffic_out,thread
 $db->exec("INSERT INTO rules VALUES (NULL, '$protocol', '$local', $localPort, '$remote', $remotePort, $switch, 0, 0, $thread);");
 if($switch){
+    //Check is Port inuse?
+    if (!checkPort($protocol,$local,$localPort)) {
+        $error = true;
+        $out['error'] = $error;
+        $out['errmsg'][] = "Can not bind on $protocol://$local:$localPort";
+        echo json_encode($out);
+        return;
+    }
     $cmd = shell_exec(PHPCLI . " " . APPROOT ."/slaver.php start --local=$local --local-port=$localPort --remote=$remote --remote-port=$remotePort --thread=$thread --protocol=$protocol");
     $out['return'] = $cmd;
 }

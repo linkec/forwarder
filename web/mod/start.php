@@ -24,16 +24,13 @@ $thread     = $rs['thread'];
 $switch     = $rs['switch'];
 
 //Check is Port inuse?
-$socket = stream_socket_server("$protocol://$local:$localPort", $errno, $errstr,$protocol === 'udp' ? STREAM_SERVER_BIND : STREAM_SERVER_LISTEN);
-if (!$socket) {
+if (!checkPort($protocol,$local,$localPort)) {
     $error = true;
     $out['error'] = $error;
     $out['errmsg'][] = "Can not bind on $protocol://$local:$localPort";
     echo json_encode($out);
     return;
 }
-fclose($socket);
-unset($socket);
 
 $cmd = shell_exec(PHPCLI . " " . APPROOT ."/slaver.php start --local=$local --local-port=$localPort --remote=$remote --remote-port=$remotePort --thread=$thread --protocol=$protocol");
 $out['return'] = $cmd;

@@ -16,6 +16,8 @@ $start_num = ($page-1)*$limit;
 $q = $db->query("SELECT * FROM rules ORDER BY $field $order LIMIT $start_num,$limit");
 if($q){
     while($rs = $q->fetchArray(SQLITE3_ASSOC) ){
+        $rs['traffic_in'] = get_size($rs['traffic_in']);
+        $rs['traffic_out'] = get_size($rs['traffic_out']);
         $data[] = $rs;
     }
 }else{
