@@ -93,6 +93,10 @@ if($config['protocol']=='tcp'){
         $sub_connection = new AsyncTcpConnection("{$config['protocol']}://{$config['remote']}:{$config['remote-port']}");
         $connection->pipe($sub_connection);
         $sub_connection->pipe($connection);
+        $sub_connection->onClose = function($sub_connection)use($connection)
+        {
+            $connection->close();
+        };
         $sub_connection->connect();
     };
 }else{
