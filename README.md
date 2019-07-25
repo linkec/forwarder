@@ -45,7 +45,7 @@ Stop the service for DEAMON
     rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
     yum remove -y libevent-devel
     yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear libevent2-devel -y
-    echo "\n\n\n\n\nno\nyes\n" | pecl install event
+    echo -e "\n\n\n\n\nno\nyes\n" | pecl install event
     echo extension=event.so >> /etc/php.d/sockets.ini
     git clone https://github.com/linkec/forwarder
     php master start -d
@@ -85,7 +85,7 @@ Stop the service for DEAMON
     rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
     yum remove -y libevent-devel
     yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear libevent-devel -y
-    echo "\n\n\n\n\nno\nyes\n" | pecl install event
+    echo -e "\n\n\n\n\nno\nyes\n" | pecl install event
     echo extension=event.so >> /etc/php.d/sockets.ini
     git clone https://github.com/linkec/forwarder
     php master start -d
