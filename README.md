@@ -44,10 +44,11 @@ Stop the service for DEAMON
     yum install -y epel-release
     rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
     yum remove -y libevent-devel
-    yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear libevent2-devel -y
+    yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear php71w-pdo libevent2-devel -y
     echo -e "\n\n\n\n\nno\nyes\n" | pecl install event
     echo extension=event.so >> /etc/php.d/sockets.ini
     git clone https://github.com/linkec/forwarder
+    cd forwarder
     php master start -d
 ```
 ## CentOS 6 ( Detail )
@@ -62,7 +63,7 @@ Stop the service for DEAMON
     yum remove libevent-devel
 
     #Install PHP7 & Libevent From RPM
-    yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear libevent2-devel
+    yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear php71w-pdo libevent2-devel
 
     #Install PHP event Extension
     #ATTENTION: Please Enter 'no' When you see "Include libevent OpenSSL support [yes] :"
@@ -83,11 +84,11 @@ Stop the service for DEAMON
 ```bash
     yum install -y epel-release
     rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
-    yum remove -y libevent-devel
-    yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear libevent-devel -y
+    yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear php71w-pdo libevent-devel -y
     echo -e "\n\n\n\n\nno\nyes\n" | pecl install event
     echo extension=event.so >> /etc/php.d/sockets.ini
     git clone https://github.com/linkec/forwarder
+    cd forwarder
     php master start -d
 ```
 ## CentOS 7 ( Detail )
@@ -98,11 +99,8 @@ Stop the service for DEAMON
     #Install webtatic RPM source
     rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 
-    #Remove Old Version Libevent Development Package
-    yum remove libevent-devel
-
     #Install PHP7 & Libevent From RPM
-    yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear libevent-devel
+    yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear php71w-pdo libevent-devel
 
     #Install PHP event Extension
     #ATTENTION: Please Enter 'no' When you see "Include libevent OpenSSL support [yes] :"
