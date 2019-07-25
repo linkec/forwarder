@@ -44,8 +44,8 @@ Stop the service for DEAMON
     yum install -y epel-release
     rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
     yum remove -y libevent-devel
-    yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear libevent2-devel
-    echo "\n\n\n\nno\nyes\n" | pecl install event
+    yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear libevent2-devel -y
+    echo "\n\n\n\n\nno\nyes\n" | pecl install event
     echo extension=event.so >> /etc/php.d/sockets.ini
     git clone https://github.com/linkec/forwarder
     php master start -d
@@ -59,7 +59,7 @@ Stop the service for DEAMON
     rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
 
     #Remove Old Version Libevent Development Package
-    yum remove -y libevent-devel
+    yum remove libevent-devel
 
     #Install PHP7 & Libevent From RPM
     yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear libevent2-devel
@@ -84,8 +84,8 @@ Stop the service for DEAMON
     yum install -y epel-release
     rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
     yum remove -y libevent-devel
-    yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear libevent2-devel
-    echo "\n\n\n\nno\nyes\n" | pecl install event
+    yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear libevent-devel -y
+    echo "\n\n\n\n\nno\nyes\n" | pecl install event
     echo extension=event.so >> /etc/php.d/sockets.ini
     git clone https://github.com/linkec/forwarder
     php master start -d
@@ -99,10 +99,10 @@ Stop the service for DEAMON
     rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 
     #Remove Old Version Libevent Development Package
-    yum remove -y libevent-devel
+    yum remove libevent-devel
 
     #Install PHP7 & Libevent From RPM
-    yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear libevent2-devel
+    yum install php71w-cli php71w-process git gcc php71w-devel php71w-pear libevent-devel
 
     #Install PHP event Extension
     #ATTENTION: Please Enter 'no' When you see "Include libevent OpenSSL support [yes] :"
