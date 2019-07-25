@@ -14,7 +14,7 @@ if(!$rs){
     return;
 }
 $rs = $db->querySingle("SELECT * FROM rules WHERE id=$id",true);
-$pidFile = APPROOT."/pids/{$rs['local']}_{$rs['localPort']}.pid";
+$pidFile = APPROOT."/pids/{$rs['protocol']}_{$rs['local']}_{$rs['localPort']}.pid";
 if(file_exists($pidFile)){
     $pid = file_get_contents($pidFile);
     posix_kill($pid,SIGINT);
